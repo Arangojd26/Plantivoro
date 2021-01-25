@@ -1,9 +1,14 @@
-import './App.css';
+import './app.scss';
+import Header from "./components/header";
+import MainContent from "./components/mainContent";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
-      React Ak
+    <div className="container">
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </div>
   );
 }
