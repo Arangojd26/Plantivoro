@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$roboto: "Roboto";
+$cursive_font: "Satisfy";
+$round: "Varela Round";
+$card_verde: #3e2ece;
+$btn: #00ccc0;
+$text: #6c6360;
+$white: #fff;
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: $roboto;
+}
+.dFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px 20px 50px;
+  box-sizing: border-box;
+  background-color: $white;
+}
+nav {
+  @extend .dFlex;
+  justify-content: space-between;
+  width: 100%;
+  color: $text;
+  .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba($text, 0.7);
+  }
+  ul {
+    @extend .dFlex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px;
+      box-sizing: border-box;
+      color: rgba($text, 0.7);
+      cursor: pointer;
+    }
+  }
+  .search {
+    color: rgba($text, 0.7);
+    .fa {
+      cursor: pointer;
+      + .fas {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+li:hover {
+  background-color: $card_verde;
+  color: $white;
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+}
+.main_content {
+  @extend .dFlex;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba($text, 0.2);
+    font-size: 20.5vw;
+  }
+  .o-card {
+    width: 30%;
+    border-radius: 15px;
+
+    @extend .dFlex;
+    flex-direction: column;
+    position: relative;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+    .card_img {
+      margin-top: -5vw;
+      img {
+        width: 200px;
+      }
+    }
+    .card_header {
+      @extend .dFlex;
+      flex-direction: column;
+      color: $text;
+      margin: 25px 0;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 18px;
+        text-align: center;
+        color: rgba($text, 0.8);
+        margin: 8px 0;
+      }
+      .price {
+        font-size: 25px;
+        color: $btn;
+        span {
+          font-size: 15px;
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+  .o-card:hover {
+    background-color: $card_verde;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    h2 {
+      color: $white;
+    }
+    p {
+      color: $white;
+    }
+    .price {
+      color: $white;
+      span {
+        color: $white;
+      }
+    }
+    .btn {
+      background-color: $btn;
+      color: $white;
+    }
+  }
+}
+.btn {
+  width: 130px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 35px;
+  background-color: rgba($btn, 0.8);
+  color: $white;
+  @extend .dFlex;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+.footer {
+  @extend .dFlex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: auto;
+  color: rgba($text, 0.5);
+  font-size: 12px;
+  .social {
+    @extend .dFlex;
+    .fab {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      border: 1px solid rgba($text, 0.5);
+      @extend .dFlex;
+      font-size: 14px;
+      color: rgba($text, 0.5);
+      cursor: pointer;
+      + .fab {
+        margin-left: 15px;
+      }
+    }
+  }
+}

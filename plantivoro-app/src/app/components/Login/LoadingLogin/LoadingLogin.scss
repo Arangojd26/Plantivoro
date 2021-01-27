@@ -1,0 +1,81 @@
+.title-loading{
+
+    font-size: 16px;
+    color: #0E195A;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    margin-right: 6.2rem;
+    margin-top: 3.4rem;
+}
+.loader {
+    position: absolute;
+    right: 0;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    
+    font-size: 5px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* text-indent: -9999em; */
+    -webkit-animation: load5 1.1s infinite ease;
+    animation: load5 1.1s infinite ease;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  @-webkit-keyframes load5 {
+    0%,
+    100% {
+      box-shadow: 0em -2.6em 0em 0em #ffffff00, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    12.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #ffffff00, 2.5em 0em 0 0em#0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    25% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #ffffff00, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    37.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #ffffff00, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    50% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #ffffff00, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    62.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #ffffff00, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    75% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #ffffff00, -1.8em -1.8em 0 0em #0E195A;
+    }
+    87.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #ffffff00;
+    }
+  }
+  @keyframes load5 {
+    0%,
+    100% {
+      box-shadow: 0em -2.6em 0em 0em #ffffff00, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    12.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #ffffff00, 2.5em 0em 0 0em#0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    25% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #ffffff00, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    37.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #ffffff00, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    50% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #ffffff00, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    62.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #ffffff00, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #0E195A;
+    }
+    75% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #ffffff00, -1.8em -1.8em 0 0em #0E195A;
+    }
+    87.5% {
+      box-shadow: 0em -2.6em 0em 0em #0E195A, 1.8em -1.8em 0 0em #0E195A, 2.5em 0em 0 0em #0E195A, 1.75em 1.75em 0 0em #0E195A, 0em 2.5em 0 0em #0E195A, -1.8em 1.8em 0 0em #0E195A, -2.6em 0em 0 0em #0E195A, -1.8em -1.8em 0 0em #ffffff00;
+    }
+  }

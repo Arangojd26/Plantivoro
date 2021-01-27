@@ -1,0 +1,32 @@
+.check-container{
+
+    position: absolute;
+    background-color: #f7fafc;
+    box-shadow: 0 0px 20px -10px rgba(84, 84, 84, 0.62);
+    border-radius: 8px !important;
+    width: 24rem;
+    height: 20rem;
+    top: 0;
+    left: 0;
+    margin-left: -18rem;
+    top: 4rem;
+    z-index: 100;
+  }
+.check-title {
+  
+    font-family: 'Avenir Next Rounded Pro Medium';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #072857;
+}
+.check-parrafo {
+  
+    font-family: 'Avenir Next Rounded Pro Medium';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #072857;
+}

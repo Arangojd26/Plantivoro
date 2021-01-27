@@ -1,0 +1,27 @@
+/* Estílos del botón de iniciar sesión y registrarse */
+.btn-iniciar-sesion {
+
+    background-color: transparent;
+    color: #AA8E73;
+    border-radius: 6px ;
+    font-family: 'Avenir Next Rounded Pro Medium';
+    font-size: 14px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 22px ;
+    padding-right: 22px ;
+    border: 0;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    outline: none !important;
+}
+.btn-iniciar-sesion:focus {
+    
+    outline:0;
+    outline: none;
+}
+.btn-iniciar-sesion:hover {
+
+    background-color: #AA8E73;
+    color: #ffffff;
+}
